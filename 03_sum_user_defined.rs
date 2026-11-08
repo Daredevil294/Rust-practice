@@ -9,5 +9,14 @@ fn main() {
     let a: i32 = num1.trim().parse().unwrap();
     let b: i32 = num2.trim().parse().unwrap();
     let sum = a + b;
-    println!("Result = {}", sum)
+    let diff = a - b;
+    let multiply = a * b;
+    let divide = a / b;
+    let modulo = a % b;
+
+    println!("S = {}", sum);
+    println!("Diff = {}", diff);
+    println!("Multiply = {}", multiply);
+    println!("Divide = {}", divide);
+    println!("Modulo = {}", modulo);
 }
