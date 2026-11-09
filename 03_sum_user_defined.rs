@@ -14,7 +14,7 @@ fn main() {
     let divide = a / b;
     let modulo = a % b;
 
-    println!("S = {}", sum);
+    println!("Sum = {}", sum);
     println!("Diff = {}", diff);
     println!("Multiply = {}", multiply);
     println!("Divide = {}", divide);
